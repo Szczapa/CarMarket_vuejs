@@ -26,11 +26,14 @@ export default {
 </script>
 
 <template>
-  <div>
-    <h1>Users</h1>
-    <div v-for="user in users" :key="user.id">
-      <h2>{{ user.last_name }}</h2>
-      <p>{{ user.mail }}</p>
-    </div>
-  </div>
+
 </template>
+<!--<template>-->
+<!--  <div>-->
+<!--    <h1>Users</h1>-->
+<!--    <div v-for="user in users" :key="user.id">-->
+<!--      <h2>{{ user.last_name }}</h2>-->
+<!--      <p>{{ user.mail }}</p>-->
+<!--    </div>-->
+<!--  </div>-->
+<!--</template>-->
