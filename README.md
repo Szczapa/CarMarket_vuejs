@@ -1,29 +1,79 @@
-# vuejsxfastapi
+# VueJS Carmarket
 
-This template should help get you started developing with Vue 3 in Vite.
+Ce projet est une démarche personnelle destinée à développer mes compétences avec FastAPI, un framework Python moderne
+et rapide pour la création d'APIs.
+C'est une refonte de mon projet d'étude : https://github.com/Szczapa/Projet_Etude_Symfony_Ecommerce qui était lui sous
+symfony 6 + twig.
 
-## Recommended IDE Setup
+Une partie du code est tiré d'un des projets d'étude : https://github.com/Szczapa/Projet_Etude_planning_system_FastAPI .
+Cette nouvelle version sera donc optimisée et retravaillée pour améliorer la lisibilité, la maintenance et la sécurité.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## FAQ
 
-## Customize configuration
+#### Quel est l'objectif ?
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+-Concevoir un Visuel dynamique et responsive rielié à une api python FastAPI.
 
-## Project Setup
+#### Quelle technologie pour le front-end ?
 
-```sh
-npm install
-```
+- Vue.js.
 
-### Compile and Hot-Reload for Development
+#### Pourquoi choisir Vue.js ?
 
-```sh
-npm run dev
-```
+- Pour sa simplicité, son caractère intuitif et son importante communauté.
+- Dans un but éducatif, pour approfondir mes connaissances dans un framework front-end, en complément de mes compétences
+  en frameworks back-end.
 
-### Compile and Minify for Production
 
-```sh
-npm run build
-```
+#### Quelle technologie pour le back-end ?
+
+- FastAPI.
+
+#### Pourquoi choisir FastAPI ?
+
+- Pour sa rapidité, sa facilité de mise en œuvre et son excellente gestion des données asynchrones.
+- Visant un apprentissage approfondi, ce projet me permet de renforcer mes compétences en framework back-end, complétant
+  ainsi mes connaissances en développement front-end.
+
+#### Autres informations ?
+
+- Ce projet est associé à un équivalent back-end développé avec symfony apiplatform.
+- [https://github.com/Szczapa/SymCartMarket](https://github.com/Szczapa/SymCartMarket)
+
+### Todo list
+
+#### Système global
+
+- [x] Création du système de router
+- [x] Connection à l'api
+- [x] systeme de stockage jwt et de login à l'api
+
+#### Utilisateur
+
+- [ ] Formulaire Création d'utilisateur
+- [x] Recherche par id
+- [x] Récupération de tout les utilisateurs
+- [ ] Update d'un utilisateur
+- [ ] Suppression utilisateur
+- [ ] Système de role
+- [ ] Update des roles
+
+#### Produit
+
+- [ ] Formulaire de Création de produits
+- [X] Recherche par id de produit
+- [X] Récupération de tout les produits
+- [X] CRUD des produits
+
+#### Panier
+
+- [ ] Création du système de panier
+- [ ] Gestion du pannier
+
+#### Connection autre
+
+- [X] Création et connection à un système de webhook discord pour le suivit du site et des actions utilisateurs.
+
+## Auteurs
+
+- Créateur : [@Szczapa](https://github.com/Szczapa)
